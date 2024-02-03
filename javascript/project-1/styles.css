@@ -1,0 +1,97 @@
+.anime-data {
+  margin-top: 5px;
+}
+
+.jumbotron {
+  background-color: inherit;
+}
+
+#anime-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#anime-character {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#anime.quote {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: inherit;
+}
+
+.card {
+  padding: 10px;
+  height: 320px;
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.left {
+  flex: 2;
+  order: 1;
+}
+.right {
+  flex: 5;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image {
+  padding: 5px;
+  width: fit-content; /* Replace with your desired width */
+  height: 300px; /* Replace with your desired height */
+}
+
+.anime-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.episodes {
+  font-size: 16px;
+}
+.episodes-aired {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+.aired-on {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+.released-on {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+.rating {
+  font-size: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.status-success {
+  font-size: 18px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.status-failure {
+  font-size: 18px;
+  font-weight: bold;
+  color: #bf4219;
+}
