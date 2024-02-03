@@ -5,6 +5,25 @@ Also how to use basic promises.
 
 # Some basic HTML practices
 
+HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+
+![alt text](image.png)
+
+## Elements
+
+The main parts of our element are as follows:
+
+- The opening tag: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.
+- The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.
+- The content: This is the content of the element, which in this case, is just text.
+- The element: The opening tag, the closing tag, and the content together comprise the element.
+
+## Void Elements
+
+Some elements have no content and are called void elements. A void element is an element in HTML that cannot have any child nodes (i.e., nested elements or text nodes). Void elements only have a start tag; end tags must not be specified for void elements.
+
+<img src="images/firefox-icon.png" alt="My test image" />
+
 We can link the HTML with css using a link tag and is usaually done in the Head element in the HTML file. There can be multiple css files linked to a single HTMl file. The file that is present later overwrites the properties and styles of the previous file if the same element has overlapping styled properties(More about this in the next section). The script tags can be linked at the end of the body tag.
 
 Most of the HTML elements are block elements. Which indicates that these elements occupy the entire width of the parent element, if not specified. A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element. A block-level element always takes up the full width available (stretches out to the left and right as far as it can).Examples of block elements are div, h1, h2, etc. However there are other elements which occupy only the required area and are called inline elements. An inline element does not start on a new line. An inline element only takes up as much width as necessary. Examples are span, a tag, etc.
