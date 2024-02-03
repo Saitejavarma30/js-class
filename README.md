@@ -1,6 +1,7 @@
 # Quick Learning
 
-Some basic JavaScript along with HTML and CSS. Usage of APIs using async and await functions
+Some basic JavaScript along with HTML and CSS.
+Usage of APIs using async and await functions
 Also how to use basic promises.
 
 ## Some basic HTML practices
@@ -70,3 +71,6 @@ JavaScript itself is relatively compact, yet very flexible. Developers have writ
 Browser Application Programming Interfaces (APIs) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples.
 Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook.
 Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites and applications.
+
+To learn about how the async await function please refer to
+[Async Await](javascript\weather-async)
