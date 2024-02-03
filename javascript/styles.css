@@ -1,0 +1,25 @@
+.anime-data {
+  margin-top: 5px;
+}
+
+#anime-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#anime-character {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#anime.quote {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(242, 172, 66);
+}
+
+.card {
+  padding: 10px;
+  background-color: blanchedalmond;
+}
