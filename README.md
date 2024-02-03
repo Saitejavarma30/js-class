@@ -411,5 +411,5 @@ You'll probably use async functions a lot where you might otherwise use promise 
 
 Keep in mind that just like a promise chain, await forces asynchronous operations to be completed in series. This is necessary if the result of the next operation depends on the result of the last one, but if that's not the case then something like Promise.all() will be more performant.
 
-To learn about how the async await function please refer to
+#### For more examples refer to
 [Async Await](javascript/weather-async)
